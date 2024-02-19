@@ -18,7 +18,7 @@ export default function hero()  {
             <h2>Breaking Down Barriers</h2>
   
            
-              <a href="/home">Let's Go</a>
+              <a href="/login">Let's Go</a>
          
           </div>
           <div className="hero-right">

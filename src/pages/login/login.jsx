@@ -50,10 +50,9 @@ export default function Login() {
     <div className="login">
       <div className="login-cont">
         <div className="login-head">
-          <h1>Welcome To PGfind</h1>
+          <h1>Welcome To Font Friend</h1>
           <p>
-            Find your perfect PG in seconds with PGFind <br></br>The ultimate
-            time-saving app for locating nearby PG!
+            Reading Simplified <br></br>
           </p>
         </div>
         <div className="login-button">

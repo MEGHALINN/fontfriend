@@ -86,9 +86,13 @@ body::before {
     flex-direction: column;
     align-items: flex-start;
 }
-
+.hero-left-about
+{
+    text-align:justify;
+    padding:100px;
+}
 .hero-left h1 {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .hero-left h2 {

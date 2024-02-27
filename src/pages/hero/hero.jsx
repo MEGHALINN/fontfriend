@@ -5,7 +5,8 @@ import './hero.css'
 
 export default function hero()  {
     return(
-      <div className="main">
+      <>
+      <section className="main" id="main">
         <div className="nav-left">
             <img src={logo} alt=""></img>
           </div>
@@ -25,6 +26,30 @@ export default function hero()  {
           </div>
         </div>
       </div>
-      </div>
+      </section>
+      <section className="about" id="about">
+      <div className="ABOUT">
+            
+              <div className="hero-cont1">
+                <div className="hero-left-about">
+                    <h1>ABOUT</h1>
+                    <h3>
+                    <h2>Introduction</h2><br/>
+Welcome to Font Friend, a pioneering project dedicated to revolutionizing the reading experience for dyslexic individuals. 
+Our initiative combines innovative technologies with personalized learning approaches to create a supportive and engaging
+ platform that empowers dyslexic readers to overcome challenges and embrace the joy of learning.<br/><br/>
+<h2>Our Mission</h2><br/>
+At Font Friend, our mission is simple yet profound: to empower dyslexic individuals by providing them with the tools and 
+resources they need to succeed in their reading journey. We believe that every individual, regardless of their learning 
+differences, deserves access to quality education and opportunities for personal growth.<br/><br/>
+
+</h3>
+                   
+                </div>
+              </div>
+            </div>
+
+      </section>
+      </>
     );
 }

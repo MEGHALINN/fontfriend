@@ -6,12 +6,11 @@ import './hero.css'
 export default function hero()  {
     return(
       <div className="main">
-        <div className="hero">
-        <div className="nav">
-          <div className="nav-left">
+        <div className="nav-left">
             <img src={logo} alt=""></img>
           </div>
-        </div>
+        <div className="hero">
+        
         <div className="hero-cont">
           <div className="hero-left">
             <h1>Welcome to Font Friend</h1>

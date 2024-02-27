@@ -1,16 +1,7 @@
-body{
-  background-color: #000000;
-}
 .dashboard {
     min-height: 100vh;
   }
-  .nav {
-    width: 100%;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0px;
-  }
+  
   .nav-left {
     float: left;
     padding-left: 30px;
@@ -61,8 +52,6 @@ body{
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 20px;
-  
-  
   }
   
   .addval h2 {
@@ -82,7 +71,10 @@ body{
     margin-top: 6px;
     
   }
-  
+  .addval button  
+    {
+      padding:10px;
+    }
   .addval textarea {
     height: 120px;
   }

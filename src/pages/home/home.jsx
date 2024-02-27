@@ -14,11 +14,9 @@ export default function Home() {
 
   return (
     <div className="dashboard">
-      <div className="nav">
-        <div className="nav-left">
+      <div className="nav-left">
           <img src={logo} alt="" />
         </div>
-      </div>
       <div className="dashboard-cont">
         <div className="side-bar">
           <div>
@@ -40,6 +38,7 @@ export default function Home() {
             <div>
               <label>Enter your word:</label>
               <input type="text" value={pgName} onChange={handlePgNameChange} />
+              <button type="button">SUBMIT</button>
             </div>
             {pgName && <p>Entered word: {pgName}</p>} {/* Display entered word */}
           </div>

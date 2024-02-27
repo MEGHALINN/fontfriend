@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../images/fontlogo.png"
-import img from "../../images/font-friend-high-resolution-logo.png"
+import img from "../../images/font-friend-high-resolution-logo-black-transparent.png"
 import './hero.css'
 
 export default function hero()  {

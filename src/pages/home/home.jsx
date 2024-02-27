@@ -38,7 +38,7 @@ export default function Home() {
             <div>
               <label>Enter your word:</label>
               <input type="text" value={pgName} onChange={handlePgNameChange} />
-              <button type="button">SUBMIT</button>
+              <button type="button">SUBMI</button>
             </div>
             {pgName && <p>Entered word: {pgName}</p>} {/* Display entered word */}
           </div>
